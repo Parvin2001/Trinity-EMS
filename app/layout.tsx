@@ -5,9 +5,9 @@ import Footer from "@/components/Footer";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "LifeCare EMS of Georgia | Emergency & Medical Transport",
+  title: "Trinity EMS | Emergency & Medical Transport",
   description:
-    "Licensed EMS provider serving Georgia for 15+ years. Emergency 911 response, non-emergency medical transport, wheelchair, bariatric, and long-distance transport.",
+    "Licensed EMS provider delivering compassionate emergency and non-emergency medical transport. Patient-Focused & Professionally Driven.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {

@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/hero-bg.png')" }}
+        style={{ backgroundImage: "url('/images/trinity-ems-hero.webp')" }}
       />
 
       {/* Gradient overlay — dark on left for text, fades to transparent on right so ambulance shows */}
@@ -29,7 +29,7 @@ export default function Hero() {
 
           {/* Sub-copy */}
           <p className="text-white/75 text-lg sm:text-xl mb-10 leading-relaxed max-w-xl">
-            From 911 emergencies to scheduled medical appointments — LifeCare EMS delivers compassionate, professional transport when it matters most.
+            From 911 emergencies to scheduled medical appointments — Trinity EMS delivers compassionate, professional transport when it matters most.
           </p>
 
           {/* CTAs */}
@@ -64,7 +64,7 @@ export default function Hero() {
             <div className="hidden sm:block w-px h-4 bg-white/25" />
             <div className="flex items-center gap-2">
               <CheckCircle size={15} className="text-[#5AB8E8]" />
-              15+ Years Serving Georgia &amp; Alabama
+              15+ Years Serving Georgia
             </div>
           </div>
         </div>

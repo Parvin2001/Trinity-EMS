@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     }
 
     await resend.emails.send({
-      from: "LifeCare EMS Contact Form <onboarding@resend.dev>",
+      from: "Trinity EMS Contact Form <onboarding@resend.dev>",
       to: ["Tru@lifecareemsga.com"],
       replyTo: email,
       subject: `New Contact Form Submission — ${serviceType || "General Inquiry"}`,
@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: #5AB8E8; padding: 24px; border-radius: 8px 8px 0 0;">
             <h2 style="color: white; margin: 0; font-size: 20px;">New Contact Form Submission</h2>
-            <p style="color: rgba(255,255,255,0.8); margin: 4px 0 0; font-size: 14px;">LifeCare EMS of Georgia</p>
+            <p style="color: rgba(255,255,255,0.8); margin: 4px 0 0; font-size: 14px;">Trinity EMS</p>
           </div>
           <div style="background: #f9fafb; padding: 24px; border: 1px solid #e5e7eb; border-top: none; border-radius: 0 0 8px 8px;">
             <table style="width: 100%; border-collapse: collapse;">

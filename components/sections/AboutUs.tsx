@@ -9,7 +9,7 @@ export default function AboutUs() {
           {/* Text */}
           <div>
             <p className="text-[#D42A22] text-sm font-semibold tracking-widest uppercase mb-4">
-              About LifeCare EMS
+              About Trinity EMS
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-[#111827] mb-8 leading-tight">
               Serving Georgia with Compassion and Clinical Excellence
@@ -17,7 +17,7 @@ export default function AboutUs() {
 
             <div className="space-y-5 text-gray-500 leading-relaxed">
               <p>
-                LifeCare EMS of Georgia, LLC is a fully licensed and insured emergency medical services provider with over 15 years of experience serving patients and communities across the state.
+                Trinity EMS is a fully licensed and insured emergency medical services provider with over 15 years of experience serving patients and communities across Georgia.
               </p>
               <p>
                 Our mission is simple: treat every patient with dignity, arrive prepared, and deliver the highest standard of care from the first moment of contact. We believe access to quality medical transport should never be a barrier.
@@ -39,7 +39,7 @@ export default function AboutUs() {
           {/* Feature checklist */}
           <div className="bg-[#F7F8FA] border border-gray-200 rounded-2xl p-8">
             <h3 className="text-[#111827] font-semibold text-lg mb-6">
-              Why Patients &amp; Partners Choose LifeCare
+              Why Patients &amp; Partners Choose Trinity EMS
             </h3>
             <div className="space-y-4">
               {features.map((feature) => (

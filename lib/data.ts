@@ -1,7 +1,7 @@
-export const PHONE = "(706) 245-0689";
-export const PHONE_HREF = "tel:+17062450689";
+export const PHONE = "(770) 680-2427";
+export const PHONE_HREF = "tel:+17706802427";
 export const EMAIL = "info@lifecareemsga.com";
-export const ADDRESS = "Georgia & Alabama";
+export const ADDRESS = "Georgia";
 
 export type Service = {
   icon: string;
@@ -110,28 +110,25 @@ export const leadership: TeamMember[] = [
 
 export const regionalManagers: TeamMember[] = [
   {
-    name: "Cal Hardwick",
-    title: "Regional Manager",
-    initials: "CH",
-    region: "Valdosta, Gray",
-    email: "Calvin@lifecareemsga.com",
-    phone: "(470) 998-9419",
+    name: "Jerrik Deuell",
+    title: "Operations Manager",
+    initials: "JD",
+    email: "Jerrik@trinityemsga.com",
+    phone: "(762) 347-7023",
   },
   {
-    name: "Carole Pence",
-    title: "Regional Manager",
-    initials: "CP",
-    region: "Habersham",
-    email: "Carole@lifecareemsga.com",
-    phone: "(706) 776-1526",
+    name: "Ashley Dunkerly",
+    title: "Operations Manager",
+    initials: "AD",
+    email: "dunkerly@trinityemsga.com",
+    phone: "(478) 235-8636",
   },
   {
-    name: "Jenn Morgan",
-    title: "Regional Manager",
-    initials: "JM",
-    region: "Columbus, Byron, Phenix City",
-    email: "Jenn@lifecareemsga.com",
-    phone: "(762) 425-4319",
+    name: "Joe Rogers, EMT",
+    title: "Operations Manager",
+    initials: "JR",
+    email: "joer@trinityemsga.com",
+    phone: "(678) 591-0304",
   },
 ];
 
@@ -171,27 +168,21 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "LifeCare was there when every second counted. The crew was calm, professional, and took incredible care of my father. I cannot thank them enough.",
-    name: "Sandra M.",
+      "Trinity EMS has provided transportation for our patients for several years. Their service and professionalism go beyond the norm. Staff take time to get to know the patients — the trust and rapport is obvious. Their attention to schedules and dependability makes our job and patient treatment seamless. Trinity EMS is THE standard for medical transportation.",
+    name: "T.S.",
+    relation: "Office Manager, FMC Hall County",
+  },
+  {
+    quote:
+      "I am beyond thankful to have the crews at Trinity EMS pick me up — they have always been patient and kind. They work hard to help me get to all my treatments and important appointments. They are great.",
+    name: "J.R.",
+    relation: "Current Patient",
+  },
+  {
+    quote:
+      "Words cannot express the love that everyone at Trinity EMS showed to my sister throughout all her years of care. No one ever said no to any trip she needed. For all the prayers and love shown, I want to say thank you to each and every one of you. She loved you guys.",
+    name: "B.L.",
     relation: "Family Member",
-  },
-  {
-    quote:
-      "We rely on LifeCare for all of our dialysis transport. They are reliable, punctual, and genuinely care about the patients they serve.",
-    name: "Dr. James K.",
-    relation: "Referring Physician",
-  },
-  {
-    quote:
-      "I was transported over 200 miles and the team made the entire journey comfortable and stress-free. Truly a world-class operation.",
-    name: "Robert T.",
-    relation: "Patient",
-  },
-  {
-    quote:
-      "LifeCare consistently goes above and beyond to assist us with our transportation needs. Their teamwork, communication, and genuine concern for those we serve are truly exceptional. Knowing we can count on them gives us peace of mind and helps us better serve our residents and families.",
-    name: "Y. Pitts",
-    relation: "Healthcare Navigator, Autumn Lane Health & Rehabilitation",
   },
 ];
 
@@ -201,7 +192,7 @@ export const features = [
   "BLS & ALS Certified Crews",
   "GPS-Tracked Fleet",
   "Fully Insured",
-  "Serving Georgia & Alabama Since 2009",
+  "Serving Georgia Since 2009",
 ];
 
 // ─── Locations ────────────────────────────────────────────────────────────────
@@ -221,57 +212,30 @@ export type Location = {
 
 export const locations: Location[] = [
   {
-    name: "Valdosta",
-    address: "601 West Hill Ave",
-    city: "Valdosta",
+    name: "Athens",
+    address: "165 Colie Dr",
+    city: "Athens",
     state: "GA",
-    zip: "31601",
-    lat: 30.8376,
-    lng: -83.2887,
+    zip: "30606",
+    lat: 33.9428,
+    lng: -83.4541,
   },
   {
-    name: "Gray",
-    address: "4191 Gray Hwy",
-    city: "Gray",
+    name: "Gainesville",
+    address: "1013 Airport Street",
+    city: "Gainesville",
     state: "GA",
-    zip: "31032",
-    lat: 33.0084,
-    lng: -83.5349,
+    zip: "30501",
+    lat: 34.2769,
+    lng: -83.8174,
   },
   {
-    name: "Habersham",
-    address: "363 Baldwin Rd",
-    city: "Cornelia",
+    name: "Greensboro",
+    address: "4720 Carey Station Rd",
+    city: "Greensboro",
     state: "GA",
-    zip: "30531",
-    lat: 34.5107,
-    lng: -83.5234,
-  },
-  {
-    name: "Columbus",
-    address: "9249 Veterans Pkwy",
-    city: "Midland",
-    state: "GA",
-    zip: "31820",
-    lat: 32.5350,
-    lng: -84.9196,
-  },
-  {
-    name: "Byron",
-    address: "102 Church St",
-    city: "Byron",
-    state: "GA",
-    zip: "31008",
-    lat: 32.6550,
-    lng: -83.7590,
-  },
-  {
-    name: "Phenix City",
-    address: "1178 U.S. Hwy 280",
-    city: "Phenix City",
-    state: "AL",
-    zip: "36867",
-    lat: 32.4698,
-    lng: -85.0024,
+    zip: "30642",
+    lat: 33.4916,
+    lng: -83.2458,
   },
 ];

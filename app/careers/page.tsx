@@ -35,7 +35,7 @@ const perks = [
     icon: Heart,
     title: "Make a Real Difference",
     description:
-      "Every shift is an opportunity to positively impact lives across Georgia and Alabama.",
+      "Every shift is an opportunity to positively impact lives across Georgia.",
   },
   {
     icon: Users,
@@ -90,7 +90,7 @@ const jobs: Job[] = [
     overview:
       "Senior operational leader responsible for the performance, compliance, and strategic execution of multiple Lifecare EMS locations. Ensures operational excellence, supports company growth initiatives, and provides coaching and accountability for operational leaders.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         heading: "Regional Operational Oversight",
@@ -146,7 +146,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking a motivated operations manager who believes in treating every patient equally, has a high standard of professionalism, can problem solve, and understands the importance of team dynamics.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         items: [
@@ -187,7 +187,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking a dedicated operations specialist with a strong sense of leadership and a variety of skills to support our Lifecare team.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         items: [
@@ -224,7 +224,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking all levels of EMT/B/A/P to join our team. We are looking for self-starting EMTs who believe in treating every patient equally, have a high standard of professionalism, can problem solve, and understand team dynamics.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         items: [
@@ -261,7 +261,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking all levels of licensed EMTs to meet our dialysis and transport needs. We are looking for motivated applicants who prioritize patient care and professionalism, can problem solve, and understand team dynamics.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         items: [
@@ -299,7 +299,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking EMT-Rs to join our team to meet our dialysis and transport needs. We are looking for self-starting EMT-Rs who believe in treating every patient equally, have a high standard of professionalism, and understand team dynamics.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         items: [
@@ -333,7 +333,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking a dedicated EMT/B/A/P with a strong sense of leadership. This role primarily focuses on training new employees and supporting shift operations.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         items: [
@@ -370,7 +370,7 @@ const jobs: Job[] = [
     overview:
       "Responsible for ensuring that all EMS operations comply with regulatory standards and internal policies. This role involves managing documentation, overseeing patient accounts, and ensuring overall compliance with healthcare regulations.",
     type: "Full Time",
-    location: "Georgia & Alabama (Remote Eligible)",
+    location: "Georgia (Remote Eligible)",
     responsibilities: [
       {
         heading: "Patient Account Management",
@@ -418,7 +418,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking a dedicated QA Specialist to ensure our operations meet the highest quality and compliance standards, ultimately enhancing patient care and safety.",
     type: "Full Time",
-    location: "Georgia & Alabama (Remote Eligible)",
+    location: "Georgia (Remote Eligible)",
     responsibilities: [
       {
         items: [
@@ -450,7 +450,7 @@ const jobs: Job[] = [
     overview:
       "We are seeking a dedicated administrative support assistant. Although medical experience is a plus, it is not necessary. The ideal candidate should have excellent oral and written communication skills and be able to organize their work using tools like Microsoft Excel.",
     type: "Full Time",
-    location: "Georgia & Alabama",
+    location: "Georgia",
     responsibilities: [
       {
         items: [
@@ -626,7 +626,7 @@ export default function CareersPage() {
         <p className="text-white/70 text-sm font-semibold tracking-widest uppercase mb-3">Join Our Team</p>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Careers</h1>
         <p className="text-white/80 text-lg max-w-xl mx-auto">
-          Be part of a team committed to delivering exceptional care across Georgia and Alabama.
+          Be part of a team committed to delivering exceptional care across Georgia.
         </p>
       </div>
 
@@ -634,7 +634,7 @@ export default function CareersPage() {
       <div className="bg-[#F7F8FA] border-b border-gray-200 py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <p className="text-[#D42A22] text-xs font-semibold tracking-widest uppercase mb-2">Why LifeCare EMS</p>
+            <p className="text-[#D42A22] text-xs font-semibold tracking-widest uppercase mb-2">Why Trinity EMS</p>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111827]">Why Work With Us</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -681,7 +681,7 @@ export default function CareersPage() {
         {/* Top CTA */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-[#F7F8FA] border border-gray-200 rounded-xl p-6 mb-10">
           <div>
-            <h2 className="text-[#111827] font-bold text-lg mb-1">Ready to join LifeCare EMS?</h2>
+            <h2 className="text-[#111827] font-bold text-lg mb-1">Ready to join Trinity EMS?</h2>
             <p className="text-gray-500 text-sm">Browse our open positions below and apply through our careers portal.</p>
           </div>
           <a

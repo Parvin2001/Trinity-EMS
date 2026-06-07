@@ -25,8 +25,8 @@ export default function Navbar() {
           <a href="/">
             <div className="bg-white rounded-lg px-3 py-1.5">
               <Image
-                src="/images/logo.jpg"
-                alt="LifeCare EMS of Georgia"
+                src="/images/logo.png"
+                alt="Trinity EMS"
                 width={150}
                 height={56}
                 className="h-9 w-auto object-contain"

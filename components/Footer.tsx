@@ -29,7 +29,7 @@ const forms = [
 const socials = [
   {
     label: "Facebook",
-    href: "https://www.facebook.com/LifeacareEMS/",
+    href: "https://www.facebook.com/TrinityEMSTransport",
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
         <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
@@ -38,23 +38,12 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/lifecare.ems.ga/",
+    href: "https://www.instagram.com/trinity.ems.ga/",
     svg: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
         <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
         <circle cx="12" cy="12" r="4" />
         <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none" />
-      </svg>
-    ),
-  },
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/company/lifecare-ems-of-georgia",
-    svg: (
-      <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
-        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-        <rect x="2" y="9" width="4" height="12" />
-        <circle cx="4" cy="4" r="2" />
       </svg>
     ),
   },
@@ -69,17 +58,17 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-4 inline-block bg-white rounded-lg px-3 py-2">
               <Image
-                src="/images/logo.jpg"
-                alt="LifeCare EMS of Georgia"
+                src="/images/logo.png"
+                alt="Trinity EMS"
                 width={140}
                 height={52}
                 className="h-10 w-auto object-contain"
               />
             </div>
             <p className="text-[#94A3B8] text-xs leading-relaxed mb-3">
-              Georgia &amp; Alabama&apos;s trusted emergency and non-emergency medical transport provider. Patient-Focused &amp; Professionally Driven.
+              Your trusted emergency and non-emergency medical transport provider. Patient-Focused &amp; Professionally Driven.
             </p>
-            <p className="text-[#94A3B8] text-xs mb-4">Licensed &amp; Insured in Georgia &amp; Alabama</p>
+            <p className="text-[#94A3B8] text-xs mb-4">Licensed &amp; Insured in Georgia</p>
             <div className="flex items-center gap-3">
               {socials.map((s) => (
                 <a
@@ -154,7 +143,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-[#94A3B8] text-xs">
-            &copy; {new Date().getFullYear()} LifeCare EMS of Georgia, LLC. All rights reserved.
+            &copy; {new Date().getFullYear()} Trinity EMS, LLC. All rights reserved.
           </p>
           <p className="text-[#94A3B8] text-xs">Patient-Focused &amp; Professionally Driven</p>
         </div>

@@ -116,7 +116,7 @@ export default function Services() {
             Comprehensive Medical Transport Solutions
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-            Emergency and non-emergency transport across Georgia and Alabama — staffed by certified EMTs and paramedics.
+            Emergency and non-emergency transport across Georgia — staffed by certified EMTs and paramedics.
           </p>
         </div>
 

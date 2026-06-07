@@ -223,7 +223,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="privacy" required className="mt-1 accent-[#5AB8E8]" />
                   <label htmlFor="privacy" className="text-gray-500 text-xs leading-relaxed">
-                    I confirm I have not included any Protected Health Information (PHI) in this message and agree to the privacy policy of LifeCare EMS of Georgia, LLC.
+                    I confirm I have not included any Protected Health Information (PHI) in this message and agree to the privacy policy of Trinity EMS.
                   </label>
                 </div>
 
@@ -269,7 +269,7 @@ export default function ContactPage() {
             <div className="bg-[#F7F8FA] border border-gray-200 rounded-xl p-6">
               <h3 className="text-[#111827] font-semibold text-base mb-3">Service Area</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
-                Proudly serving patients and facilities across <strong className="text-[#111827]">Georgia and Alabama</strong> for over 15 years.
+                Proudly serving patients and facilities across <strong className="text-[#111827]">Georgia</strong> for over 15 years.
               </p>
               <a href="/#services" className="inline-flex items-center gap-1 text-[#5AB8E8] text-sm font-medium mt-3 hover:underline">
                 View all services <ChevronRight size={14} />

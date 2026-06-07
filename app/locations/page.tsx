@@ -12,7 +12,7 @@ export default function LocationsPage() {
           Our Locations
         </h1>
         <p className="text-white/80 text-lg max-w-xl mx-auto">
-          Serving communities across Georgia and Alabama from multiple stations.
+          Serving communities across Georgia from multiple stations.
         </p>
       </div>
 

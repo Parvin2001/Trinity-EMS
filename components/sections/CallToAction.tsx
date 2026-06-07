@@ -9,7 +9,7 @@ export default function CallToAction() {
           Ready to Schedule a Transport?
         </h2>
         <p className="text-white/80 text-lg mb-10 max-w-xl mx-auto">
-          Emergency and non-emergency transport across Georgia and Alabama — call us anytime.
+          Emergency and non-emergency transport across Georgia — call us anytime.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
