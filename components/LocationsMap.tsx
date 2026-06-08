@@ -50,10 +50,10 @@ export default function LocationsMap() {
   const [selected, setSelected] = useState<Location | null>(null);
 
   return (
-    <div className="flex flex-col lg:flex-row" style={{ height: "calc(100vh - 224px)", minHeight: 520 }}>
+    <div className="flex flex-col lg:flex-row lg:h-[calc(100vh-224px)] lg:min-h-[520px]">
 
       {/* ── Sidebar ── */}
-      <div className="w-full lg:w-80 shrink-0 overflow-y-auto border-r border-gray-200 bg-white">
+      <div className="w-full lg:w-80 shrink-0 h-64 lg:h-full overflow-y-auto border-b border-gray-200 lg:border-b-0 lg:border-r bg-white">
         <div className="px-5 py-4 border-b border-gray-100">
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">
             {locations.length} Locations
@@ -112,7 +112,7 @@ export default function LocationsMap() {
       </div>
 
       {/* ── Map ── */}
-      <div className="flex-1 min-h-[360px]">
+      <div className="h-[420px] lg:flex-1 lg:h-full">
         <MapContainer
           center={[32.8, -83.9]}
           zoom={7}

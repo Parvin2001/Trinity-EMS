@@ -230,7 +230,7 @@ export const locations: Location[] = [
     lng: -83.8174,
   },
   {
-    name: "Greensboro",
+    name: "Greensboro (Inter-Facility Transport)",
     address: "4720 Carey Station Rd",
     city: "Greensboro",
     state: "GA",
