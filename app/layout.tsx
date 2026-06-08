@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   title: "Trinity EMS | Emergency & Medical Transport",
   description:
     "Licensed EMS provider delivering compassionate emergency and non-emergency medical transport. Patient-Focused & Professionally Driven.",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
