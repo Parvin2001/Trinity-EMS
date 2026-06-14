@@ -113,6 +113,7 @@ export const regionalManagers: TeamMember[] = [
     name: "Jerrik Deuell",
     title: "Operations Manager",
     initials: "JD",
+    region: "Athens, GA",
     email: "Jerrik@trinityemsga.com",
     phone: "(762) 347-7023",
   },
@@ -120,6 +121,7 @@ export const regionalManagers: TeamMember[] = [
     name: "Ashley Dunkerly",
     title: "Operations Manager",
     initials: "AD",
+    region: "Gainesville, GA",
     email: "dunkerly@trinityemsga.com",
     phone: "(478) 235-8636",
   },
@@ -127,6 +129,7 @@ export const regionalManagers: TeamMember[] = [
     name: "Joe Rogers, EMT",
     title: "Operations Manager",
     initials: "JR",
+    region: "Greensboro, GA",
     email: "joer@trinityemsga.com",
     phone: "(678) 591-0304",
   },
@@ -157,6 +160,14 @@ export const adminCompliance: TeamMember[] = [
 ];
 
 export const operationalSpecialists: TeamMember[] = [
+  {
+    name: "Caterina Matos",
+    title: "Operations Specialist",
+    initials: "CM",
+    region: "Athens, GA",
+    email: "Caterina@trinityemsga.com",
+    phone: "(478) 221-4775",
+  },
   {
     name: "Kristen Andrews",
     title: "Director of Quality Assurance",
