@@ -86,21 +86,11 @@ export default function Team() {
           </div>
         </div>
 
-        {/* Operational Managers */}
-        <div className="mb-14">
-          <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-400 text-center mb-8">Operational Managers</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {regionalManagers.map((member) => (
-              <MemberCard key={member.name} member={member} />
-            ))}
-          </div>
-        </div>
-
-        {/* Operational Specialists */}
+        {/* Operations */}
         <div>
-          <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-400 text-center mb-8">Operational Specialists</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {operationalSpecialists.map((member) => (
+          <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-400 text-center mb-8">Operations</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            {[...regionalManagers, ...operationalSpecialists].map((member) => (
               <MemberCard key={member.name} member={member} />
             ))}
           </div>
