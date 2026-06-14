@@ -10,7 +10,7 @@ export default function Testimonials() {
             Testimonials
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#111827] mb-4">
-            What Our Patients Say
+            What Our Patients and Partners Say
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
             The families and patients we serve are our greatest measure of success.

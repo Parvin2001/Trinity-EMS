@@ -118,6 +118,9 @@ export default function Services() {
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
             Emergency and non-emergency transport across Georgia — staffed by certified EMTs and paramedics.
           </p>
+          <p className="text-gray-400 text-sm mt-3 max-w-xl mx-auto">
+            Select any service below to learn more about what we offer and how we can help.
+          </p>
         </div>
 
         {/* Primary service cards */}

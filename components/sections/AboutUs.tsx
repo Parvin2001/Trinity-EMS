@@ -1,6 +1,40 @@
 import { CheckCircle, ChevronRight } from "lucide-react";
 import { features } from "@/lib/data";
 
+const socials = [
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/TrinityEMSTransport",
+    svg: (
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+      </svg>
+    ),
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/trinity.ems.ga/",
+    svg: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+        <circle cx="12" cy="12" r="4" />
+        <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none" />
+      </svg>
+    ),
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/company/trinity-ems-transport/",
+    svg: (
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+        <rect x="2" y="9" width="4" height="12" />
+        <circle cx="4" cy="4" r="2" />
+      </svg>
+    ),
+  },
+];
+
 export default function AboutUs() {
   return (
     <section id="about" className="py-24 bg-white">
@@ -23,7 +57,7 @@ export default function AboutUs() {
                 Our mission is simple: treat every patient with dignity, arrive prepared, and deliver the highest standard of care from the first moment of contact. We believe access to quality medical transport should never be a barrier.
               </p>
               <p>
-                Our team of nationally registered EMTs and paramedics undergoes continuous training and certification to meet and exceed state and federal requirements. Every crew member is selected not just for their clinical skills, but for their character.
+                Our team of licensed EMTs and paramedics undergo continuous training and certification to meet and exceed state and federal requirements. Every crew member is selected not just for their clinical skills, but for their character — because the right person makes all the difference for you and your family when it matters most.
               </p>
             </div>
 
@@ -34,6 +68,23 @@ export default function AboutUs() {
               Meet Our Team
               <ChevronRight size={16} />
             </a>
+
+            {/* Social links */}
+            <div className="flex items-center gap-3 mt-6">
+              <span className="text-gray-400 text-xs font-medium uppercase tracking-widest">Follow Us</span>
+              {socials.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={s.label}
+                  className="w-9 h-9 rounded-full bg-[#F7F8FA] border border-gray-200 flex items-center justify-center text-gray-500 hover:text-[#5AB8E8] hover:border-[#5AB8E8]/40 transition-colors"
+                >
+                  {s.svg}
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Feature checklist */}

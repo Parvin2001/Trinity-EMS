@@ -35,7 +35,7 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-start gap-4 mb-14">
             <a
-              href="#services"
+              href="/contact"
               className="flex items-center gap-2 bg-[#5AB8E8] hover:bg-[#3AAED8] text-white font-semibold px-8 py-4 rounded-md transition-colors text-base shadow-lg"
             >
               Request Transport

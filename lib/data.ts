@@ -30,11 +30,11 @@ export const services: Service[] = [
   },
   {
     icon: "HeartPulse",
-    title: "Basic Life Support (BLS)",
+    title: "Basic and Advanced Life Support",
     description:
-      "BLS transport staffed by trained professionals, equipped to provide immediate assistance in critical situations.",
+      "BLS and ALS transport staffed by trained professionals, equipped to provide immediate assistance in critical situations.",
     details:
-      "Our BLS service puts patient safety first. Our trained professionals are equipped to provide immediate, life-saving assistance in critical situations. Our team is continuously trained and prepared to respond effectively — delivering prompt, compassionate support and maintaining the highest standards of care on every call.",
+      "Our Basic and Advanced Life Support services put patient safety first. Our trained EMTs and paramedics are equipped to provide immediate, life-saving assistance across the full spectrum of medical needs — from BLS monitoring and transport to ALS interventions requiring advanced assessment and care. Our team is continuously trained and prepared to respond effectively, delivering prompt, compassionate support and maintaining the highest standards of care on every call.",
   },
   {
     icon: "Heart",
@@ -80,7 +80,7 @@ export type Stat = {
 
 export const stats: Stat[] = [
   { value: "15+", label: "Years in Service", icon: "Clock" },
-  { value: "60,000+", label: "Transports Done in 2025", icon: "Ambulance" },
+  { value: "60,000+", label: "Transports Completed in 2025", icon: "Ambulance" },
   { value: "50+", label: "Counties Served", icon: "MapPin" },
 ];
 

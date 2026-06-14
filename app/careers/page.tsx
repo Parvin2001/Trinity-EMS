@@ -696,7 +696,7 @@ export default function CareersPage() {
         </div>
 
         {/* Job count */}
-        <p className="text-gray-400 text-sm mb-6">{jobs.length} open positions</p>
+        <p className="text-gray-400 text-sm mb-6">{jobs.length} Career Paths</p>
 
         {/* Accordion list */}
         <div className="space-y-3">
