@@ -157,17 +157,6 @@ export const adminCompliance: TeamMember[] = [
     email: "Sierra@temsconsultants.com",
     phone: "(762) 425-4323",
   },
-];
-
-export const operationalSpecialists: TeamMember[] = [
-  {
-    name: "Caterina Matos",
-    title: "Operations Specialist",
-    initials: "CM",
-    region: "Athens, GA",
-    email: "Caterina@trinityemsga.com",
-    phone: "(478) 221-4775",
-  },
   {
     name: "Kristen Andrews",
     title: "Director of Quality Assurance",
@@ -185,6 +174,17 @@ export const operationalSpecialists: TeamMember[] = [
     title: "Staff Accountant",
     initials: "MH",
     email: "miruanl@temsconsultants.com",
+  },
+];
+
+export const operationalSpecialists: TeamMember[] = [
+  {
+    name: "Caterina Matos",
+    title: "Operations Specialist",
+    initials: "CM",
+    region: "Athens, GA",
+    email: "Caterina@trinityemsga.com",
+    phone: "(478) 221-4775",
   },
 ];
 
