@@ -142,7 +142,7 @@ export const adminCompliance: TeamMember[] = [
   },
   {
     name: "Grace Haney",
-    title: "Compliance (CAC CACO)",
+    title: "Chief of Compliance",
     initials: "GH",
     email: "Grace@temsconsultants.com",
     phone: "(706) 534-0536",
@@ -156,8 +156,29 @@ export const adminCompliance: TeamMember[] = [
   },
 ];
 
+export const operationalSpecialists: TeamMember[] = [
+  {
+    name: "Kristen Andrews",
+    title: "Director of Quality Assurance",
+    initials: "KA",
+    email: "kristen@lifecareems.com",
+  },
+  {
+    name: "Sal Gangi",
+    title: "Director of Education and Safety",
+    initials: "SG",
+    email: "sal@trinityemsga.com",
+  },
+  {
+    name: "Miruan Haney",
+    title: "Staff Accountant",
+    initials: "MH",
+    email: "miruanl@temsconsultants.com",
+  },
+];
+
 // Keep backward compat
-export const team: TeamMember[] = [...leadership, ...regionalManagers, ...adminCompliance];
+export const team: TeamMember[] = [...leadership, ...regionalManagers, ...adminCompliance, ...operationalSpecialists];
 
 export type Testimonial = {
   quote: string;

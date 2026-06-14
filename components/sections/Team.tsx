@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin } from "lucide-react";
-import { leadership, regionalManagers, adminCompliance, TeamMember } from "@/lib/data";
+import { leadership, adminCompliance, regionalManagers, operationalSpecialists, TeamMember } from "@/lib/data";
 
 function MemberCard({ member }: { member: TeamMember }) {
   return (
@@ -76,6 +76,16 @@ export default function Team() {
           </div>
         </div>
 
+        {/* Admin & Compliance */}
+        <div className="mb-14">
+          <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-400 text-center mb-8">Admin &amp; Compliance</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {adminCompliance.map((member) => (
+              <MemberCard key={member.name} member={member} />
+            ))}
+          </div>
+        </div>
+
         {/* Operational Managers */}
         <div className="mb-14">
           <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-400 text-center mb-8">Operational Managers</h3>
@@ -86,11 +96,11 @@ export default function Team() {
           </div>
         </div>
 
-        {/* Admin & Compliance */}
+        {/* Operational Specialists */}
         <div>
-          <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-400 text-center mb-8">Admin &amp; Compliance</h3>
+          <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-400 text-center mb-8">Operational Specialists</h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {adminCompliance.map((member) => (
+            {operationalSpecialists.map((member) => (
               <MemberCard key={member.name} member={member} />
             ))}
           </div>
