@@ -12,7 +12,7 @@ const links = [
   { label: "Locations", href: "/locations" },
   { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
-  { label: "Pay Bill", href: "https://lifecareems.secure.lq-pay.net", external: true },
+  { label: "Pay Bill", href: "https://trinityems.secure.lq-pay.net/", external: true },
 ];
 
 export default function Navbar() {
