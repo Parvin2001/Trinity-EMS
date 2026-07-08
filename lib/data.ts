@@ -170,10 +170,10 @@ export const adminCompliance: TeamMember[] = [
     email: "sal@trinityemsga.com",
   },
   {
-    name: "Miruan Haney",
+    name: "Miruna Haney",
     title: "Staff Accountant",
     initials: "MH",
-    email: "miruanl@temsconsultants.com",
+    email: "mirunal@temsconsultants.com",
   },
 ];
 
