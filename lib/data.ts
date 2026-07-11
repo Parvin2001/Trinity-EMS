@@ -1,5 +1,6 @@
 export const PHONE = "(770) 680-2427";
 export const PHONE_HREF = "tel:+17706802427";
+export const FAX = "(770) 502-6343";
 export const EMAIL = "info@lifecareemsga.com";
 export const ADDRESS = "Georgia";
 

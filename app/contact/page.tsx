@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, Mail, AlertTriangle, CheckCircle, Send, ChevronRight } from "lucide-react";
-import { PHONE, PHONE_HREF, EMAIL } from "@/lib/data";
+import { Phone, Mail, AlertTriangle, CheckCircle, Send, ChevronRight, Printer } from "lucide-react";
+import { PHONE, PHONE_HREF, FAX, EMAIL } from "@/lib/data";
 
 const serviceOptions = [
   "General Inquiry",
@@ -250,7 +250,11 @@ export default function ContactPage() {
                 <Phone size={18} />
                 {PHONE}
               </a>
-              <p className="text-gray-500 text-xs leading-relaxed">
+              <div className="flex items-center gap-2 text-gray-500 text-xs mt-3">
+                <Printer size={14} className="text-[#5AB8E8] shrink-0" />
+                Fax: {FAX}
+              </div>
+              <p className="text-gray-500 text-xs leading-relaxed mt-3">
                 For emergency transport or to discuss medical transport needs, calling is always the fastest option.
               </p>
             </div>

@@ -1,6 +1,6 @@
-import { Phone, MapPin, FileText } from "lucide-react";
+import { Phone, MapPin, FileText, Printer } from "lucide-react";
 import Image from "next/image";
-import { PHONE, PHONE_HREF, ADDRESS } from "@/lib/data";
+import { PHONE, PHONE_HREF, FAX, ADDRESS } from "@/lib/data";
 
 const serviceLinks = [
   "Inter-facility Transport",
@@ -119,6 +119,12 @@ export default function Footer() {
                   <Phone size={13} className="text-[#5AB8E8] shrink-0" />
                   {PHONE}
                 </a>
+              </li>
+              <li>
+                <div className="flex items-center gap-2 text-[#94A3B8] text-xs">
+                  <Printer size={13} className="text-[#5AB8E8] shrink-0" />
+                  Fax: {FAX}
+                </div>
               </li>
               <li>
                 <div className="flex items-start gap-2 text-[#94A3B8] text-xs">
