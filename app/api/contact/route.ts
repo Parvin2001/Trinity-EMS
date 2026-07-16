@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     }
 
     await resend.emails.send({
-      from: "Trinity EMS Contact Form <onboarding@resend.dev>",
+      from: "Trinity EMS Contact Form <noreply@trinityemsga.com>",
       to: ["Tru@lifecareemsga.com"],
       replyTo: email,
       subject: `New Contact Form Submission — ${serviceType || "General Inquiry"}`,
