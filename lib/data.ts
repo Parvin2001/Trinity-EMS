@@ -101,12 +101,6 @@ export const leadership: TeamMember[] = [
     initials: "BH",
     email: "Brian@lifecareemsga.com",
   },
-  {
-    name: "Tru Patel",
-    title: "Chief Operating Officer",
-    initials: "TP",
-    email: "Tru@lifecareemsga.com",
-  },
 ];
 
 export const regionalManagers: TeamMember[] = [
@@ -137,13 +131,6 @@ export const regionalManagers: TeamMember[] = [
 ];
 
 export const adminCompliance: TeamMember[] = [
-  {
-    name: "Jonathan Herpst",
-    title: "Public Relations",
-    initials: "JH",
-    email: "Jonathan@lifecareemsga.com",
-    phone: "(706) 921-9099",
-  },
   {
     name: "Grace Haney",
     title: "Chief of Compliance",
