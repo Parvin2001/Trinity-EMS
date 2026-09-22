@@ -1,74 +1,58 @@
-import { ChevronRight, CheckCircle, Mail } from "lucide-react";
+import { ChevronRight, Mail } from "lucide-react";
+
+function Ctas() {
+  return (
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a
+        href="/contact"
+        className="flex items-center justify-center gap-2 bg-[#5AB8E8] hover:bg-[#3AAED8] text-white font-semibold px-8 py-4 rounded-md transition-colors text-base shadow-lg"
+      >
+        Request Transport
+        <ChevronRight size={18} />
+      </a>
+      <a
+        href="/contact"
+        className="flex items-center justify-center gap-2 border-2 border-white/80 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-[#111827] font-semibold px-8 py-4 rounded-md transition-all text-base"
+      >
+        <Mail size={18} />
+        Contact Us
+      </a>
+    </div>
+  );
+}
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/trinity-ems-hero.webp')" }}
-      />
-
-      {/* Gradient overlay — dark on left for text, fades to transparent on right so ambulance shows */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0D1520]/85 via-[#0D1520]/60 to-[#0D1520]/20" />
-
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20">
-        <div className="max-w-2xl">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 border border-white/25 bg-white/10 text-white text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-8 backdrop-blur-sm">
-            Georgia&apos;s Trusted EMS Provider · 15+ Years
-          </div>
-
-          {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6">
-            Emergency &amp;{" "}
-            <span className="whitespace-nowrap">Non-Emergency</span>{" "}
-            <span className="text-[#5AB8E8]">Medical Transport</span>{" "}
-            Across Georgia
-          </h1>
-
-          {/* Sub-copy */}
-          <p className="text-white/75 text-lg sm:text-xl mb-10 leading-relaxed max-w-xl">
-            From 911 emergencies to scheduled medical appointments — Trinity EMS delivers compassionate, professional transport when it matters most.
-          </p>
-
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row items-start gap-4 mb-14">
-            <a
-              href="/contact"
-              className="flex items-center gap-2 bg-[#5AB8E8] hover:bg-[#3AAED8] text-white font-semibold px-8 py-4 rounded-md transition-colors text-base shadow-lg"
-            >
-              Request Transport
-              <ChevronRight size={18} />
-            </a>
-            <a
-              href="/contact"
-              className="flex items-center gap-2 border-2 border-white/70 text-white hover:bg-white hover:text-[#111827] font-semibold px-8 py-4 rounded-md transition-all text-base"
-            >
-              <Mail size={18} />
-              Contact Us
-            </a>
-          </div>
-
-          {/* Trust indicators */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 text-sm text-white/65">
-            <div className="flex items-center gap-2">
-              <CheckCircle size={15} className="text-[#5AB8E8]" />
-              State Licensed &amp; Insured
-            </div>
-            <div className="hidden sm:block w-px h-4 bg-white/25" />
-            <div className="flex items-center gap-2">
-              <CheckCircle size={15} className="text-[#5AB8E8]" />
-              BLS &amp; ALS Certified Crews
-            </div>
-            <div className="hidden sm:block w-px h-4 bg-white/25" />
-            <div className="flex items-center gap-2">
-              <CheckCircle size={15} className="text-[#5AB8E8]" />
-              15+ Years Serving Georgia
-            </div>
-          </div>
+    <section className="relative">
+      {/* Desktop / tablet: immersive full-bleed branded artwork with buttons over the bottom */}
+      <div className="relative hidden md:flex min-h-screen items-end justify-center overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/images/trinity-ems-hero.webp')" }}
+        />
+        <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-[#0D1520]/85 to-transparent" />
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-8 pb-16">
+          <Ctas />
         </div>
       </div>
+
+      {/* Mobile: full branded artwork shown uncropped, buttons on a bar below */}
+      <div className="md:hidden">
+        <div className="h-16" />
+        <img
+          src="/images/trinity-ems-hero.webp"
+          alt="Trinity EMS — Emergency & Non-Emergency Medical Transport Across Georgia"
+          className="block w-full h-auto"
+        />
+        <div className="bg-[#0D1520] px-4 py-6">
+          <Ctas />
+        </div>
+      </div>
+
+      {/* Accessible headline for SEO and screen readers (the visual headline lives in the artwork) */}
+      <h1 className="sr-only">
+        Emergency &amp; Non-Emergency Medical Transport Across Georgia — Trinity EMS
+      </h1>
     </section>
   );
 }
