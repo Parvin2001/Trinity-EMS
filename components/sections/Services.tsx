@@ -109,10 +109,10 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-[#D42A22] text-base font-bold tracking-widest uppercase mb-3">
+          <p className="text-[#D42A22] text-lg font-bold tracking-widest uppercase mb-4">
             Our Services
           </p>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-[#111827] mb-5 tracking-tight">
+          <h2 className="text-5xl sm:text-6xl font-extrabold text-[#111827] mb-5 tracking-tight">
             Comprehensive Medical Transport{" "}
             <span className="text-[#5AB8E8]">Solutions</span>
           </h2>
