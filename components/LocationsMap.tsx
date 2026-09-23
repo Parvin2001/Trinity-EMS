@@ -119,10 +119,10 @@ export default function LocationsMap() {
           style={{ height: "100%", width: "100%" }}
           scrollWheelZoom
         >
-          {/* CartoDB Positron — clean, minimal tile style, free, no API key */}
+          {/* Esri Light Gray Canvas — clean, minimal, free, no API key, no watermark */}
           <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+            attribution='Tiles &copy; Esri'
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
           />
 
           <MapController location={selected} />

@@ -1,4 +1,5 @@
 import Hero from "@/components/sections/Hero";
+import Tagline from "@/components/sections/Tagline";
 import Services from "@/components/sections/Services";
 import TrustBar from "@/components/sections/TrustBar";
 import AboutUs from "@/components/sections/AboutUs";
@@ -10,6 +11,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <Tagline />
       <Services />
       <TrustBar />
       <AboutUs />

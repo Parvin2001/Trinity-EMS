@@ -109,14 +109,15 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-[#D42A22] text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#D42A22] text-base font-bold tracking-widest uppercase mb-3">
             Our Services
           </p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#111827] mb-4">
-            Comprehensive Medical Transport Solutions
+          <h2 className="text-4xl sm:text-5xl font-extrabold text-[#111827] mb-5 tracking-tight">
+            Comprehensive Medical Transport{" "}
+            <span className="text-[#5AB8E8]">Solutions</span>
           </h2>
-          <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-            Emergency and non-emergency transport across Georgia — staffed by certified EMTs and paramedics.
+          <p className="text-gray-600 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
+            From 911 emergency response to scheduled non-emergency trips, our certified crews deliver safe, compassionate care for every patient.
           </p>
           <p className="text-gray-400 text-sm mt-3 max-w-xl mx-auto">
             Select any service below to learn more about what we offer and how we can help.
@@ -141,7 +142,7 @@ export default function Services() {
                     {service.badge}
                   </span>
                 )}
-                <h3 className="text-[#111827] font-semibold text-lg mb-2">{service.title}</h3>
+                <h3 className="text-[#111827] font-bold text-lg mb-2">{service.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed mb-4">{service.description}</p>
                 <span className="text-[#5AB8E8] text-xs font-semibold tracking-wide group-hover:underline">
                   Learn more →
